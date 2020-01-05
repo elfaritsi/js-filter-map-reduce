@@ -46,3 +46,13 @@ let ReduceArray2 = RandomArray.reduce((akum, arraySaatIni) => akum + arraySaatIn
 
 console.log(ReduceArray2);
 
+
+/* ketiga prototype array tersebut bisa disatukan dengan Method chaining (fungsi berantai),
+Contoh : 
+- saya akan memfilter array yang lebih kecil dari 5
+- lalu akan menambahkan setiap elemen array dengan 2
+- setelah itu saya akan mengalikan seluruh elemen array nya */
+
+let MethodChaining = RandomArray.filter(a => a < 5).map(a => a + 2).reduce((a,b) => a * b);
+
+console.log(MethodChaining);
