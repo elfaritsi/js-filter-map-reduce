@@ -40,3 +40,4 @@ total.append(`${jam} jam ${menit} menit ${detik} detik`);
 let jumlah_video = video.length;
 let jumlah = document.querySelector('#jumlah_video');
 jumlah.append(`${jumlah_video} video`);
+
